@@ -40,7 +40,7 @@ public class JavaGameShell extends HttpServlet {
 		// write response
 		out.print(gameCommandJsonResult);
 
-		// close up everything
+		// close up everything,
 		out.flush();
 		out.close();
 	}
